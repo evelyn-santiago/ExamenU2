@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilo.css">
-    <title>EL RINCÓN DE LA PIZZA</title>
+    <title>Examen</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -18,63 +17,50 @@
                 <div class="col-md-1">
                     <div class="card-body">
                         <div align="left">
-                            <img src="./imagenes/LOGO1.png" class="img-fluid" alt="Logo el rincon de las pizzas">
+                            <img src="logo.jpg" class="img-fluid" alt="Logo el rincon de las pizzas">
                         </div>
                     </div>
-                </div>
-                <!-- Fin del Logo -->
-
-                <!-- Botón Ordena -->
-                
-                <!-- Fin del Botón Ordena -->
-
-                <!-- Botón Menú -->
-                
-                <!-- Fin del Botón Menú -->
-
-                <!-- Botón Promos (Menú Flotante) -->
-                
-
-                <!-- Fin del Botón Promos -->
-
-                <!-- Título centrado -->
-                <div class="col text-center">
-                    <a class="navbar-brand">EL RINCÓN DE LA PIZZA</a>
                 </div>
 
                 <!-- Botones a la derecha -->
                 <div class="col-auto ms-auto">
-                    <button class="btn btn-outline-light" onclick="window.location.href='file:///C:/Users/nancy/Desktop/PaginaWebU1/formulario.html'">Iniciar sesión</button>
-                    <!-- Botón del Carrito (flotante) -->
-                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#carritoModal">
-                        Carrito
-                    </button>
+                    <button class="btn btn-outline-light" ">Boton</button>
+                    
                 </div>
             </div>
         </div>
     </nav>
 
-    <!-- Modal del Carrito -->
-    <div class="modal fade" id="carritoModal" tabindex="-1" aria-labelledby="carritoModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="carritoModalLabel">¡¡Cada bocado es una explosión de sabor, con nuestra pizza del Rincón!!</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <header class=" text-white text-center py-5" style=" margin-top: 80px;">
+        <h1 style="color: black;">Titulo</h1>
+    </header>
+
+    <div class="container mt-4">
+        <div class="card p-4">
+            <h2 class="text-center">Formulario de Contacto</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
                 </div>
-                <div class="modal-body text-center">
-                    <button type="button" class="btn btn-danger" onclick="window.location.href='#'">Empezar Orden</button>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su correo">
                 </div>
-            </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
     </div>
-    <!-- Fin del Modal del Carrito -->
-
-    <!-- Sección de bienvenida -->
-    <header class=" text-white text-center py-5" style="background-color: #AD2E05;   margin-top: 80px;">
-        <h1>Bienvenidos a Pizzería El rincoon de la pizza</h1>
-        <p>Las mejores pizzas,  recién hechas para ti</p>
-    </header>
+    
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="https://www.facebook.com" class="text-white mx-2" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com" class="text-white mx-2" target="_blank">Instagram</a>
+    </footer>
 
     <!-- Scripts de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
